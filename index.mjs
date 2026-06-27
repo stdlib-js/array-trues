@@ -1,4 +1,0 @@
-// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import{factory as s}from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains@v0.2.3-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/array-full@v0.3.1-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-join@v0.1.2-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@v0.4.1-esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@v0.4.1-esm/index.mjs";import d from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@v0.2.3-esm/index.mjs";var i=r("boolean_and_generic"),m=s(i),o=n.get("dtypes.boolean");function l(s){var r;if(arguments.length>1){if(!m(r=arguments[1]))throw new TypeError(d("nullDQ",t(i,'", "'),r))}else r=o;return e(s,!0,r)}export{l as default};
-//# sourceMappingURL=index.mjs.map
